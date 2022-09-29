@@ -79,7 +79,7 @@ function iniciarJogo(){
     
   }
     if (contadorLetra == palavraSecreta.length) {
-      alert("Você ganhou, não fez mais que sua obrigação")
+      alert("Você acertou! Parabéns.")
       erros = 8
       letras = []
       iniciarJogo();
