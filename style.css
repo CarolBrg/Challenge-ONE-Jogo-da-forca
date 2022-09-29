@@ -1,0 +1,150 @@
+body{
+  min-width: 1224px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background: #F3F5FC;
+}
+
+.logo{
+  margin-top: 30px;
+  position: absolute;
+}
+
+.botoes-home{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  left: 40rem;
+  top: 20rem;
+ }
+
+ .btn-iniciar {
+  padding: 24px;
+  margin: 10px;
+  width: 317px;
+  height: 114px;
+  left: 0;
+  top: 20rem;  
+  background: #0A3871;
+  border-radius: 24px;
+ font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 22px;
+  justify-content: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.btn-novaPalavra {
+  padding: 24px;
+  margin: 10px;
+  width: 317px;
+  height: 67px;
+  left: 0;
+  top: 20rem;  
+  background: #F3F5FC;
+  border-color: #0A3871;
+  border-radius: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  justify-content: center;
+  color: #0A3871;
+  cursor: pointer;
+}
+
+.canvas{
+  margin-left: 2.5rem;
+  width: 1024px;
+  height:800px;
+}
+
+#addPalavraNova {
+  display: flex;
+  position: absolute;
+  left: 30rem;
+}
+
+#input-texto {
+  width: 600px;
+  height: 400px;
+  background-color: transparent;
+  font-size: 25px;
+  color: #0A3871;
+  border: none;
+  outline: none;
+  margin-top: 90px;
+  text-transform:uppercase;
+}
+
+.informacao {
+  font-size: 15px;
+  color: #495057;
+  margin-bottom: 10px;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.btn-salvar {
+  background-color: #0A3871;
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  font-size: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.btn-cancelar {
+  background-color: #D8DFE8;
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  border-color: #0A3871;
+  font-size: 20px;
+  color: #0A3871;
+  cursor: pointer;
+  margin: 0 24px;
+}
+
+.btn-forca{
+  width: 680px;
+  height: 67px;
+  left: 9rem;
+  top:64rem;
+  display: flex;
+  position: absolute;
+  left: 31rem;
+  top: 760px;
+}
+
+ .btn-azul{
+  background-color: #0A3871;
+  width: 300px;
+  height: 67px;
+  border-radius: 24px;
+  font-size: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.btn-branco{
+  background-color: #FFFFFF;
+  width: 300px;
+  height: 67px;
+  border-radius: 24px;
+  border-color: #0A3871;
+  font-size: 20px;
+  color: #0A3871;
+  cursor: pointer;
+  margin: 0 24px;
+}

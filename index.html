@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Forca</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="logo.png" alt="Logo da alura com a letra inicial a" class="logo">
+    </header>
+
+    <section id="home" class="botoes-home">
+      <div>
+        <a href="#forca">
+          <input class="btn-iniciar" type="submit" value="Iniciar Jogo" id="iniciar-jogo" onclick="iniciarJogo()" >
+        </a>
+      </div>
+      
+      <div>
+        <a href="#forca">
+          <input class="btn-novaPalavra" type="submit" value="Adicionar nova palavra" id="nova-palavra" onclick="adicionarNovaPalavra()">
+        </a>
+      </div>
+    </section>
+
+    <section id="addPalavraNova">
+      <textarea class="input-texto" id="input-texto" maxlength="10" cols="40" rows="6" placeholder="Digite uma palavra"></textarea>
+      <div>
+        <h6 class="informacao"><img src="!.png"> Máx. de 10 letras.</h6>
+      </div>
+      <div class="botoes">
+        <button class="btn-salvar" id="salvar" onclick="salvarPalavraNova()">
+          Salvar e começar
+        </button>
+        <button class="btn-cancelar" id="cancelar" href="#home" onclick="volta()">
+          Cancelar
+        </button>
+      </div>
+    </section>
+
+    <section>
+      <div id="aparece-forca" class="canvas">
+        <canvas id="forca" height="860px" width="1200"></canvas>
+      </div>
+
+      <div class="btn-forca" id="botoes-forca">
+        <input class="btn-azul" type="submit" value="Novo Jogo" id="btn-novo-jogo" onclick="iniciarJogo()">
+        <input class="btn-branco" type="submit" value="Sair" id="btn-sair" onclick="volta()">
+      </div>
+    </section>
+      
+      <script type="text/javascript" src="forca.js"></script>
+      <script type="text/javascript" src="canvas.js"></script>
+
+  </body>
+</html>
